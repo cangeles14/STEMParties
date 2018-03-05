@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+body {
+  color: #5a5a5a;
+  font-family: 'Muli', sans-serif;
+}
+
+/*Navbar*/
+
+.navbar-custom {
+    background-color:white;
+}
+
+.stem-img {
+    margin-left: 8rem;
+    margin-top: 6rem;
+    color:green;
+}
+.div-wrap {
+    background-color: #f3f2f2;
+}
+
+.about-box {
+    width: 100%;
+    height: auto;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.party-box {
+    margin-left: 10rem;
+    margin-bottom: 3rem;
+}
