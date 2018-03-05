@@ -1,63 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>STEM Parties</title>
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <!-- Custom fonts for this template -->
-    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-    
-
-    <!-- Custom styles for this template -->
-    <link href="/css/main.css" rel="stylesheet">
-    <link href="/css/balloons.css" rel="stylesheet">
-
-  </head>
-
-  <body>
-    
-    <!-- Navigation -->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="/home">STEM Parties</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="/home">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Parties
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item" href="/bridgebuilding">Bridge Building</a>
-                          <a class="dropdown-item" href="/cupcakedecorating">Cupcake Decorating</a>
-                          <a class="dropdown-item" href="/eggdrop">Egg Drop</a>
-                          <a class="dropdown-item" href="/novelengineering">Novel Engineering</a>
-                      </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Log In</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    
+<% include ./partials/header %>
+  
   <main role="main">
 
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -117,12 +59,12 @@
             <p>Each party is prepared how you want it.</p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <i class="fas fa-birthday-cake marketing-icon-size color-2"></i>
+            <i class="fas fa-birthday-cake marketing-icon-size color-7"></i>
             <h2>Celebrate</h2>
             <p>Throw the perfect party with games and snacks!</p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <i class="fas fa-flask marketing-icon-size color-4"></i>
+            <i class="fas fa-flask marketing-icon-size color-6"></i>
             <h2>Learn</h2>
             <p>Learn while having fun!</p>
           </div><!-- /.col-lg-4 -->
@@ -135,10 +77,12 @@
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">Fun games <span class="text-muted">that'll encourage learning.</span></h2>
+            <blockquote class="oval-thought-border">
+            <p class="featurette-heading p-3">Fun games <span class="text-muted">that'll encourage learning.</span></p>
+            </blockquote>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="/img/img20.jpg" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto rounded" src="/img/img20.jpg" alt="Generic placeholder image">
           </div>
         </div>
 
@@ -146,10 +90,12 @@
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Design the party <span class="text-muted">around your child!</span></h2>
+            <blockquote class="oval-thought-border-left">
+            <p class="featurette-heading p-3">Design the party <span class="text-muted">around your child!</span></p>
+            </blockquote>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" src="/img/img21.jpg" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto rounded" src="/img/img21.jpg" alt="Generic placeholder image">
           </div>
         </div>
 
@@ -157,10 +103,12 @@
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">And have fun <span class="text-muted">till the very last minute.</span></h2>
+            <blockquote class="oval-thought-border border-yellow">
+            <p class="featurette-heading p-3">And have fun <span class="text-muted">till the very last minute.</span></p>
+            </blockquote>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" src="/img/img22.jpg" alt="Generic placeholder image">
+            <img class="featurette-image img-fluid mx-auto rounded" src="/img/img22.jpg" alt="Generic placeholder image">
           </div>
         </div>
 
@@ -170,26 +118,4 @@
 
       </div><!-- /.container -->
     
-    <!-- Footer -->
-    <footer class="py-5 footer-custom">
-      <div class="container">
-        <p class="m-0 text-center text-white small">Copyright &copy; STEMParties.com 2018</p>
-      </div>
-    </footer>
-    
-    
-    <!-- Bootstrap core JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-    <!-- Plugin JavaScript -->
-
-
-    <!-- Custom scripts for this template -->
-    <script src="/js/main.js"></script>
-    
-
-  </body>
-
-</html>
+<% include ./partials/footer %>
